@@ -9,7 +9,8 @@ namespace Manification
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            new Magnifier(this);
+            var a = new Magnifier(this);
+            a.UpdateMaginifier();
         }
     }
 }
